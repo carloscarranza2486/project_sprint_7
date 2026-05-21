@@ -4,7 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 
 # Load the dataset
-car_data = pd.read_csv("../vehicles_us.csv")
+car_data = pd.read_csv("./vehicles_us.csv")
 
 
 st.header(
